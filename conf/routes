@@ -8,6 +8,12 @@ module:testrunner
 
 
 GET     /                                       App.Index
+<<<<<<< Updated upstream
+=======
+GET     /example/:name                          Ex.Index
+GET     /create/:name/:mail                     Ex.Create
+GET     /test                                   App.Test
+>>>>>>> Stashed changes
 GET     /insert                                 App.Insert
 GET     /insert/:code/:price                    Products.Insert
 GET     /show/:code                             Products.Show
